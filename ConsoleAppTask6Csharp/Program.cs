@@ -122,6 +122,42 @@
             //    Console.ReadKey();
             #endregion
             #region Task4
+            //    string strC, strN;
+            //    int c, n;
+            //L1:
+            //    Console.Write("C deyerini daxil edin: ");
+            //    strC = Console.ReadLine();
+            //    if (!int.TryParse(strC, out c))
+            //    {
+            //        goto L1;
+            //    }
+            //L2:
+            //    Console.Write("Massivin uzunluğunu daxil edin: ");
+            //    strN = Console.ReadLine();
+            //    if (!int.TryParse(strN, out n))
+            //    {
+            //        goto L2;
+            //    }
+            //    int[] a = new int[n];
+
+            //    for (int i = 0; i < n; i++)
+            //    {
+            //        Console.Write("a[" + (i + 1) + "] deyerini daxil edin: ");
+            //        a[i] = int.Parse(Console.ReadLine());
+            //    }
+            //    int[] result = Array.FindAll(a, x => Math.Abs(x) > c);
+            //    Array.Sort(result);
+            //    Array.Reverse(result);
+
+            //    Console.WriteLine($"Massivde mutleq deyeri {c}-den boyuk olan elementlerdir");
+            //    foreach (int i in result)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+
+            //    Console.ReadKey();
+            #endregion
+            #region Task5
         //    string strC, strN;
         //    int c, n;
         //L1:
@@ -145,14 +181,15 @@
         //        Console.Write("a[" + (i + 1) + "] deyerini daxil edin: ");
         //        a[i] = int.Parse(Console.ReadLine());
         //    }
-        //    int[] result = Array.FindAll(a, x => Math.Abs(x) > c);
+        //    int[] result = Array.FindAll(a, x => Math.Abs(x) < c);
         //    Array.Sort(result);
         //    Array.Reverse(result);
 
-        //    Console.WriteLine($"Massivde mutleq deyeri {c}-den boyuk olan elementlerdir");
+        //    Console.WriteLine($"Massivde mutleq deyeri {c}-den kicik olan maximum element ashagidakidir.");
         //    foreach (int i in result)
         //    {
         //        Console.WriteLine(i);
+        //        break;
         //    }
 
         //    Console.ReadKey();
