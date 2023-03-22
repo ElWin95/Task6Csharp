@@ -1,0 +1,15 @@
+C:\Users\emust\Documents\ElvinP416\Task6Csharp\ConsoleAppTask6Csharp\bin\Debug\net6.0\ConsoleAppTask6Csharp.exe
+C:\Users\emust\Documents\ElvinP416\Task6Csharp\ConsoleAppTask6Csharp\bin\Debug\net6.0\ConsoleAppTask6Csharp.deps.json
+C:\Users\emust\Documents\ElvinP416\Task6Csharp\ConsoleAppTask6Csharp\bin\Debug\net6.0\ConsoleAppTask6Csharp.runtimeconfig.json
+C:\Users\emust\Documents\ElvinP416\Task6Csharp\ConsoleAppTask6Csharp\bin\Debug\net6.0\ConsoleAppTask6Csharp.dll
+C:\Users\emust\Documents\ElvinP416\Task6Csharp\ConsoleAppTask6Csharp\bin\Debug\net6.0\ConsoleAppTask6Csharp.pdb
+C:\Users\emust\Documents\ElvinP416\Task6Csharp\ConsoleAppTask6Csharp\obj\Debug\net6.0\ConsoleAppTask6Csharp.csproj.AssemblyReference.cache
+C:\Users\emust\Documents\ElvinP416\Task6Csharp\ConsoleAppTask6Csharp\obj\Debug\net6.0\ConsoleAppTask6Csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emust\Documents\ElvinP416\Task6Csharp\ConsoleAppTask6Csharp\obj\Debug\net6.0\ConsoleAppTask6Csharp.AssemblyInfoInputs.cache
+C:\Users\emust\Documents\ElvinP416\Task6Csharp\ConsoleAppTask6Csharp\obj\Debug\net6.0\ConsoleAppTask6Csharp.AssemblyInfo.cs
+C:\Users\emust\Documents\ElvinP416\Task6Csharp\ConsoleAppTask6Csharp\obj\Debug\net6.0\ConsoleAppTask6Csharp.csproj.CoreCompileInputs.cache
+C:\Users\emust\Documents\ElvinP416\Task6Csharp\ConsoleAppTask6Csharp\obj\Debug\net6.0\ConsoleAppTask6Csharp.dll
+C:\Users\emust\Documents\ElvinP416\Task6Csharp\ConsoleAppTask6Csharp\obj\Debug\net6.0\refint\ConsoleAppTask6Csharp.dll
+C:\Users\emust\Documents\ElvinP416\Task6Csharp\ConsoleAppTask6Csharp\obj\Debug\net6.0\ConsoleAppTask6Csharp.pdb
+C:\Users\emust\Documents\ElvinP416\Task6Csharp\ConsoleAppTask6Csharp\obj\Debug\net6.0\ConsoleAppTask6Csharp.genruntimeconfig.cache
+C:\Users\emust\Documents\ElvinP416\Task6Csharp\ConsoleAppTask6Csharp\obj\Debug\net6.0\ref\ConsoleAppTask6Csharp.dll
