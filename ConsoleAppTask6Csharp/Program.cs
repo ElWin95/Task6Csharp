@@ -314,49 +314,138 @@ namespace ConsoleAppTask6Csharp
             #region Task7
             /* 7.  a massivinin (a[0],a[1] .... a[n]) en kicik ve en boyuk elementlerinin hendesi ve ededi ortasini tapmali
              */
-        //    string strN, strA;
-        //    int n, max, min;
-        //    double numAverage, geometricMean;
-        //l1:
-        //    Console.Write("Massivin uzunluğunu daxil edin: ");
-        //    strN = Console.ReadLine();
-        //    if (!int.TryParse(strN, out n))
-        //    {
-        //        Console.WriteLine("Eded duzgun daxil edilmeyib.");
-        //        goto l1;
-        //    }
-        //    int[] a = new int[n];
+            //    string strN, strA;
+            //    int n, max, min;
+            //    double numAverage, geometricMean;
+            //l1:
+            //    Console.Write("Massivin uzunluğunu daxil edin: ");
+            //    strN = Console.ReadLine();
+            //    if (!int.TryParse(strN, out n))
+            //    {
+            //        Console.WriteLine("Eded duzgun daxil edilmeyib.");
+            //        goto l1;
+            //    }
+            //    int[] a = new int[n];
 
-        //    for (int i = 0; i < n; i++)
-        //    {
-        //    l2:
-        //        Console.Write("a[" + (i + 1) + "] deyerini daxil edin: ");
-        //        strA = Console.ReadLine();
-        //        if (!int.TryParse(strA, out a[i]))
-        //        {
-        //            Console.WriteLine("Eded duzgun daxil edilmeyib.");
-        //            goto l2;
-        //        }
-        //    }
-        //    max = a[0];
-        //    min = a[0];
-        //    for (int i = 0; i < a.Length; i++)
-        //    {
-        //        if (a[i] > max)
-        //        {
-        //            max = a[i];
-        //        }
-        //        if (a[i] < min)
-        //        {
-        //            min = a[i];
-        //        }
-        //    }
-        //    numAverage = (max + min) / 2;
-        //    geometricMean = Math.Pow((max * min), 1.0 / 2);
-        //    Console.WriteLine($"Hendesi ortasi: {geometricMean}");
-        //    Console.WriteLine($"Ededi ortasi: {numAverage}");
+            //    for (int i = 0; i < n; i++)
+            //    {
+            //    l2:
+            //        Console.Write("a[" + (i + 1) + "] deyerini daxil edin: ");
+            //        strA = Console.ReadLine();
+            //        if (!int.TryParse(strA, out a[i]))
+            //        {
+            //            Console.WriteLine("Eded duzgun daxil edilmeyib.");
+            //            goto l2;
+            //        }
+            //    }
+            //    max = a[0];
+            //    min = a[0];
+            //    for (int i = 0; i < a.Length; i++)
+            //    {
+            //        if (a[i] > max)
+            //        {
+            //            max = a[i];
+            //        }
+            //        if (a[i] < min)
+            //        {
+            //            min = a[i];
+            //        }
+            //    }
+            //    numAverage = (max + min) / 2;
+            //    geometricMean = Math.Pow((max * min), 1.0 / 2);
+            //    Console.WriteLine($"Hendesi ortasi: {geometricMean}");
+            //    Console.WriteLine($"Ededi ortasi: {numAverage}");
 
-        //    Console.ReadKey();
+            //    Console.ReadKey();
+            #endregion
+            #region Task8
+            /* 8.  Heriri 14 elementli 2 massivin uygun elementlerini bir birine vurub?alinan musbet hasillerden  yeni massiv duzeltmeli
+             */
+
+            //string strX, strY;
+            //int product;
+
+            //int[] x = new int[14];
+
+            //for (int i = 0; i < 14; i++)
+            //{
+            //l1:
+            //    Console.Write("X[" + (i + 1) + "] deyerini daxil edin: ");
+            //    strX = Console.ReadLine();
+            //    if (!int.TryParse(strX, out x[i]))
+            //    {
+            //        Console.WriteLine("Eded duzgun daxil edilmeyib.");
+            //        goto l1;
+            //    }
+            //}
+
+            //int[] y = new int[14];
+
+            //for (int i = 0; i < 14; i++)
+            //{
+            //l2:
+            //    Console.Write("Y[" + (i + 1) + "] deyerini daxil edin: ");
+            //    strY = Console.ReadLine();
+            //    if (!int.TryParse(strY, out y[i]))
+            //    {
+            //        Console.WriteLine("Eded duzgun daxil edilmeyib.");
+            //        goto l2;
+            //    }
+            //}
+            //int[] result = new int[14];
+            //Console.WriteLine(" ");
+            //Console.Write("Yeni massivin elementleri: ");
+            //for (int i = 0; i < 14; i++)
+            //{
+            //    product = x[i] * y[i];
+            //    if (product > 0)
+            //    {
+            //        result[i] = product;
+            //    }
+            //    Console.Write(result[i] + " ");
+            //}
+            //Console.ReadKey();
+            #endregion
+            #region Task9
+            /* 9.  25 elementli massivin ilk 8 elementini kvadrata yukseltmeli,qalanini ise 4-e bolub,yeni iki massiv duzeltmeli
+             */
+
+            //string strX;
+
+            //int[] x = new int[25];
+
+            //for (int i = 0; i < 25; i++)
+            //{
+            //l1:
+            //    Console.Write("X[" + (i + 1) + "] deyerini daxil edin: ");
+            //    strX = Console.ReadLine();
+            //    if (!int.TryParse(strX, out x[i]))
+            //    {
+            //        Console.WriteLine("Eded duzgun daxil edilmeyib.");
+            //        goto l1;
+            //    }
+            //}
+
+            //int[] result1 = new int[8];
+            //Console.WriteLine(" ");
+            //Console.Write("Yeni 1-ci massivin elementleri: ");
+            //for (int i = 0; i < 8; i++)
+            //{
+            //    result1[i] = (int)Math.Pow(x[i], 2);
+            //    Console.Write(result1[i] + " ");
+            //}
+            //Console.WriteLine(" ");
+            //int[] result2 = new int[17];
+            //Console.Write("Yeni 2-ci massivin elementleri: ");
+            //for(int i = 8; i < 25; i++)
+            //{
+            //    result2[i - 8] = x[i] / 4;
+            //}
+            //for (int j = 0; j < 17; j++)
+            //{
+            //    Console.Write(result2[j] + " ");
+            //}
+            //Console.ReadKey();
             #endregion
         }
     }
