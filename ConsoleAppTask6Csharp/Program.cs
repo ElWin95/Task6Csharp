@@ -1,4 +1,5 @@
-﻿using System.Threading.Channels;
+﻿using System.Diagnostics.CodeAnalysis;
+using System.Threading.Channels;
 
 namespace ConsoleAppTask6Csharp
 {
@@ -445,6 +446,124 @@ namespace ConsoleAppTask6Csharp
             //{
             //    Console.Write(result2[j] + " ");
             //}
+            //Console.ReadKey();
+            #endregion
+            #region Task10
+            /* 10. X(n) massivinden ancaq menfi elementlerin maximum elementi tapin
+             */
+
+            //    string strN, strX;
+            //    int n;
+            //    int maxNegative = 0;
+
+            //l1:
+            //    Console.Write("X(n) massivinin uzunluğunu daxil edin: ");
+            //    strN = Console.ReadLine();
+            //    if (!int.TryParse(strN, out n))
+            //    {
+            //        Console.WriteLine("Eded duzgun daxil edilmeyib.");
+            //        goto l1;
+            //    }
+            //    int[] x = new int[n];
+
+            //    for (int i = 0; i < n; i++)
+            //    {
+            //    l2:
+            //        Console.Write("x[" + (i + 1) + "] deyerini daxil edin: ");
+            //        strX = Console.ReadLine();
+            //        if (!int.TryParse(strX, out x[i]))
+            //        {
+            //            Console.WriteLine("Eded duzgun daxil edilmeyib.");
+            //            goto l2;
+            //        }
+            //    }
+
+            //    for (int i = 0; i < n; i++)
+            //    {
+            //        if (x[i] < 0 && x[i] < maxNegative)
+            //        {
+            //            maxNegative = x[i];
+            //        }
+            //    }
+            //    Console.WriteLine($"Maximum menfi element: {maxNegative}");
+
+            //    Console.ReadKey();
+            #endregion
+            #region Task11
+            /* 11. X(n) massivinin elementlerini random olaraq 0-100 arasi ededlerle doldurub,sonra ise azalma sirasina gore duzmeli
+             */
+
+            //    string strN, strX;
+            //    int n;
+
+            //l1:
+            //    Console.Write("X(n) massivinin uzunluğunu daxil edin: ");
+            //    strN = Console.ReadLine();
+            //    if (!int.TryParse(strN, out n))
+            //    {
+            //        Console.WriteLine("Eded duzgun daxil edilmeyib.");
+            //        goto l1;
+            //    }
+            //    int[] x = new int[n];
+
+            //    Random rand = new Random();
+
+            //    for (int i = 0; i < n; i++)
+            //    {
+            //        x[i] = rand.Next(101);
+            //    }
+            //    Array.Sort(x);
+            //    Array.Reverse(x);
+            //    Console.WriteLine("X(n) massivinin elementlerinin random olduqdan sonra azalma sirasi: ");
+            //    for (int i = 0; i < n; i++)
+            //    {
+            //        Console.WriteLine(x[i]);
+            //    }
+
+            //    Console.ReadKey();
+            #endregion
+            #region Task12
+            /* 12. X(20) massivinin ilk yarisinin ededi ortasini ikinci yarisinin hendesi ortasini tapmaq
+             */
+
+            //string strX;
+            //int sum = 0;
+            //int count1 = 0;
+            //int count2 = 0;
+            //long product = 1;
+            //double numAverage;
+            //double geometricMean;
+
+            //int[] x = new int[20];
+
+            //for (int i = 0; i < 20; i++)
+            //{
+            //l1:
+            //    Console.Write("X[" + (i + 1) + "] deyerini daxil edin: ");
+            //    strX = Console.ReadLine();
+            //    if (!int.TryParse(strX, out x[i]))
+            //    {
+            //        Console.WriteLine("Eded duzgun daxil edilmeyib.");
+            //        goto l1;
+            //    }
+            //}
+
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    sum += x[i];
+            //    count1++;
+            //}
+            //numAverage = sum / count1;
+            //Console.WriteLine($"Ilk yarisinin elementlerinin ededi ortasi: {numAverage}");
+
+            //for (int i = 10; i < 20; i++)
+            //{
+            //    product *= x[i];
+            //    count2++;
+            //}
+            //geometricMean = Math.Pow(product, 1.0 / count2);
+            //Console.WriteLine($"Hendesi ortasi: {geometricMean}");
+
             //Console.ReadKey();
             #endregion
         }
